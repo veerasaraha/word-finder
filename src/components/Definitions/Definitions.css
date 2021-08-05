@@ -1,0 +1,60 @@
+.meanings {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  height: 55vh;
+  border-radius: 10px;
+  padding: 10px 20px;
+  overflow-x: hidden;
+  border: 10px solid rgb(105, 105, 105);
+  scroll-behavior: smooth;
+}
+
+.subTitle {
+  font-size: 2.5vw;
+  font-size: 100;
+  margin: 10px auto;
+  font-family: 'Cinzel', serif;
+}
+
+.singleMean {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 10px 0;
+}
+
+audio {
+  width: 100%;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ccc;
+}
+
+@media (max-width: 900px) {
+  .meanings {
+    height: 60vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+  .subTitle {
+    font-size: 4vw;
+  }
+}
