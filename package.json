@@ -1,6 +1,7 @@
 {
   "name": "word-finder",
   "version": "0.1.0",
+  "proxy": "https://api.dictionaryapi.dev/api/v2/",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.3",

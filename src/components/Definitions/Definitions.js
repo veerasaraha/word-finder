@@ -52,7 +52,7 @@ const Definitions = ({ word, meanings, category, lightMode }) => {
 
 Definitions.propTypes = {
   word: PropTypes.string.isRequired,
-  meanings: PropTypes.string.isRequired,
+  meanings: PropTypes.array.isRequired,
   category: PropTypes.string.isRequired,
   lightMode: PropTypes.bool.isRequired,
 }

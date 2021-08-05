@@ -29,4 +29,5 @@ Added bit of CSS3 for styling.
 
 ### `Hosted In Netlify`
 
-This project is up and running with the help of Netlify.
+This project is up and running with the help of Netlify hosting.
+Open [https://word-finder-dictionary.netlify.app/]
